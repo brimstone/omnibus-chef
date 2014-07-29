@@ -78,6 +78,7 @@ build do
 
   auxiliary_gems = {}
   auxiliary_gems['ruby-shadow'] = '>= 0.0.0' unless Ohai['platform'] == 'aix'
+  auxiliary_gems['chef-vault'] = '>= 0.0.0'
 
   auxiliary_gems.each do |name, version|
     gem "install #{name}" \
