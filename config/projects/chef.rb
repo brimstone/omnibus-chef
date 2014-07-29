@@ -39,3 +39,5 @@ override :rubygems, version: "1.8.29"
 dependency "preparation"
 dependency "chef"
 dependency "version-manifest"
+
+override :chef,   version: "11.12.8"
