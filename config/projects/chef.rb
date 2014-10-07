@@ -84,3 +84,4 @@ package :msi do
     'ChefGemPath' => windows_safe_path(relative_path.to_s),
   )
 end
+override :chef,   version: "11.16.2"
